@@ -1,2 +1,2 @@
-# ricsc
-Checkservice Commander (RICSC)
+# ricsc_net
+Checkservice Commander (RICSC .NET)
