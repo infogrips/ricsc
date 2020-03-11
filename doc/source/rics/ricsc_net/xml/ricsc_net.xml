@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.0//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.0/sdocbook.dtd">
+<article lang="de">
+  <title>RICS Commander</title>
+
+  <articleinfo>
+    <abstract>
+      <para>Diese Dokumentation beschreibt die Benutzung des RICS Commander
+      und die API zum Checkservice.</para>
+    </abstract>
+
+    <legalnotice>
+      <para>Die Dokumentation darf nur mit Erlaubnis der infoGrips GmbH
+      vervielfältigt werden.</para>
+    </legalnotice>
+
+    <copyright>
+      <year>infoGrips GmbH, 2020</year>
+    </copyright>
+
+    <pubdate>11.03.2020</pubdate>
+  </articleinfo>
+
+  <xi:include href="ricsc_net_intro.xml"
+              xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+  <section>
+    <title>Input Module</title>
+
+    <section>
+      <title>Einleitung</title>
+
+      <para role="Absatz1">In diesem Anhang sind alle Input Module und ihre
+      Prozeduren bzw. Methoden beschrieben, welche zusammen mit dem
+      RUN1Algorithmus benutzt werden können.</para>
+    </section>
+
+    <xi:include href="ricsc_net_usage.xml"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xpointer="element(/1)" />
+  </section>
+
+  <section>
+    <title>Output Module</title>
+
+    <section>
+      <title>Einleitung</title>
+
+      <para role="Absatz1">In diesem Anhang sind alle Output Module und ihre
+      Prozeduren bzw. Methoden beschrieben, welche zusammen mit dem RUN1
+      Algorithmus benutzt werden können.</para>
+    </section>
+
+    <xi:include href="ricsc_net_api.xml"
+                xmlns:xi="http://www.w3.org/2001/XInclude" />
+  </section>
+</article>

@@ -1,5 +1,7 @@
 .vscode/
 bin/
-obj/
 binaries/*/*deps.json
 binaries/*/*.pdb
+doc/build/rics/ricsc_net/ricsc_net.pdf
+doc/source/rics/ricsc_net/temp
+obj/

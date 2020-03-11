@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.0//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.0/sdocbook.dtd">
+<section>
+  <title>API</title>
+
+  <section>
+    <title>Allgemeines</title>
+
+    <para>Mit der .NET API lassen sich Checkservice-Aufgaben einfach in
+    bestehende Umgebungen / Dienste einbetten.</para>
+
+    <para>Hierzu kann entweder der Source-Code oder das DLL in ein Projekt
+    eingebunden werden.</para>
+  </section>
+
+  <section>
+    <title>Verfügbare Methoden</title>
+
+    <informaltable frame="none">
+      <tgroup cols="2">
+        <colspec colwidth="20*" />
+
+        <colspec colwidth="80*" />
+
+        <tbody>
+          <row>
+            <entry colsep="0" rowsep="0"><emphasis
+            role="bold">Prozedur</emphasis></entry>
+
+            <entry colsep="0" rowsep="0"><emphasis role="bold"><command>public
+            void infogrips.service.rics.client.connect(String server, String
+            usr, String passwd)</command></emphasis></entry>
+          </row>
+
+          <row>
+            <entry colsep="0" rowsep="0"><emphasis
+            role="bold">Beschreibung</emphasis></entry>
+
+            <entry colsep="0" rowsep="0">Stellt eine Verbindung zum
+            Checkservice her.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+
+    <informaltable frame="none">
+      <tgroup cols="2">
+        <colspec colwidth="20*" />
+
+        <colspec colwidth="80*" />
+
+        <tbody>
+          <row>
+            <entry colsep="0" rowsep="0"><emphasis
+            role="bold">Prozedur</emphasis></entry>
+
+            <entry colsep="0" rowsep="0"><emphasis role="bold"><command>public
+            void
+            infogrips.service.rics.client.disconnect()</command></emphasis></entry>
+          </row>
+
+          <row>
+            <entry colsep="0" rowsep="0"><emphasis
+            role="bold">Beschreibung</emphasis></entry>
+
+            <entry colsep="0" rowsep="0"><para>Schliesst die Verbindung zum
+            Checkservice.</para></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+
+    <informaltable frame="none">
+      <tgroup cols="2">
+        <colspec colwidth="20*" />
+
+        <colspec colwidth="80*" />
+
+        <tbody>
+          <row>
+            <entry colsep="0" rowsep="0"><emphasis
+            role="bold">Prozedur</emphasis></entry>
+
+            <entry colsep="0" rowsep="0"><emphasis role="bold"><command>public
+            void infogrips.service.rics.client.sendFile(String fname, byte[]
+            buffer, Hashtable options)</command></emphasis></entry>
+          </row>
+
+          <row>
+            <entry colsep="0" rowsep="0"><emphasis
+            role="bold">Beschreibung</emphasis></entry>
+
+            <entry colsep="0" rowsep="0">Sendet eine Datei mit den
+            entsprechenden Optionen an den Checkservice.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+
+    <informaltable frame="none">
+      <tgroup cols="2">
+        <colspec colwidth="20*" />
+
+        <colspec colwidth="80*" />
+
+        <tbody>
+          <row>
+            <entry colsep="0" rowsep="0"><emphasis
+            role="bold">Prozedur</emphasis></entry>
+
+            <entry colsep="0" rowsep="0"><emphasis role="bold"><command>public
+            List&lt;object&gt; infogrips.service.rics.client.getInfo(String
+            service, String md5)</command></emphasis></entry>
+          </row>
+
+          <row>
+            <entry colsep="0" rowsep="0"><emphasis
+            role="bold">Beschreibung</emphasis></entry>
+
+            <entry colsep="0" rowsep="0">Ruft Informationen zu einer
+            bestimmten Datei vom Checkservice ab.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+
+  <section>
+    <title>Beispielanwendung</title>
+
+    <para>Als Beispielanwendung dient der RICS-Commander selbst. Die Klasse
+    <emphasis role="bold">RICSCommander.cs</emphasis> ist der
+    Main-Entry-Point.</para>
+  </section>
+</section>

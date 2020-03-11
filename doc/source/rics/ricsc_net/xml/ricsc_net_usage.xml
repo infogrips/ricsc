@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.0//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.0/sdocbook.dtd">
+<section>
+  <title>Nutzung</title>
+
+  <section>
+    <title>Allgemeines</title>
+
+    <para>Der RICS Commander kann über folgenden Befehl gestartet
+    werden.</para>
+
+    <programlisting>!CMD (Windows)
+cd %ricsc_dir%
+ricsc.exe %argumente%
+
+!Terminal (Unix)
+cd %ricsc_dir%
+./ricsc %argumente%</programlisting>
+  </section>
+
+  <section>
+    <title>Parameter</title>
+
+    <para>Folgende Parameter können in der Map
+    <literal>RMDATAIN_PARAM</literal> für das Modul RMDATAIN gesetzt
+    werden:</para>
+
+    <informaltable>
+      <tgroup cols="2">
+        <colspec align="left" colwidth="20*" />
+
+        <colspec align="left" colwidth="70*" />
+
+        <tbody>
+          <row>
+            <entry><emphasis role="bold">Parameter</emphasis></entry>
+
+            <entry><emphasis role="bold">Beschreibung</emphasis></entry>
+          </row>
+
+          <row>
+            <entry><literal>service</literal></entry>
+
+            <entry>Servicename des Checkservice (zum Beispiel:
+            checkch)</entry>
+          </row>
+
+          <row>
+            <entry><literal>user</literal></entry>
+
+            <entry>Benutzername (E-Mail-Adresse)</entry>
+          </row>
+
+          <row>
+            <entry><literal>command</literal></entry>
+
+            <entry>Kommando (send, check_level, get_log)</entry>
+          </row>
+
+          <row>
+            <entry><literal>file</literal></entry>
+
+            <entry>Relativer oder absoluter Pfad zur Datei. Beim Kommando
+            "send" kann auch ein File-Pattern angegeben werden.</entry>
+          </row>
+
+          <row>
+            <entry><literal>parameter-name</literal></entry>
+
+            <entry>Je nach Checkservice lassen sich zusätzliche Parameter
+            setzen. Diese können Einfach über die Kommandozeile eingegeben
+            werden. (Beispiel: data_forward ON)</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+
+  <section>
+    <title>Beispielaufrufe</title>
+
+    <programlisting>!Datei an den Checkservice senden
+ricsc -service &lt;service-name&gt; -user &lt;user-name&gt; -command send -file *.xtf -data_forward ON
+
+!Den Checklevel zu einer gesendeten Datei abrufen
+ricsc -service &lt;service-name&gt; -user &lt;user-name&gt; -command check_level -file test.xtf
+
+!Den Link zur Log-Datei abrufen
+ricsc -service &lt;service-name&gt; -user &lt;user-name&gt; -command get_log -file test.xtf</programlisting>
+  </section>
+</section>

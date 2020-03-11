@@ -1,0 +1,140 @@
+<Promt-TransML Name="Unbenannt"
+>
+<Rules>
+<Rule Type=Block Algorithm=Translate />
+<Rule Type=Block Name="article" Algorithm=Translate >
+  <Attribute-Type Name="lang" Type=Translate />
+  <Attribute-Condition Name="lang" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="title" Algorithm=Translate />
+<Rule Type=Block Name="articleinfo" Algorithm=Translate />
+<Rule Type=Block Name="abstract" Algorithm=Translate />
+<Rule Type=Block Name="para" Algorithm=Translate />
+<Rule Type=Block Name="legalnotice" Algorithm=Translate />
+<Rule Type=Block Name="copyright" Algorithm=Translate />
+<Rule Type=Block Name="year" Algorithm=Translate />
+<Rule Type=Block Name="pubdate" Algorithm=Translate />
+<Rule Type=Block Name="section" Algorithm=Translate />
+<Rule Type=Block Name="para" Algorithm=Translate >
+  <Attribute-Type Name="role" Type=Translate />
+  <Attribute-Condition Name="role" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="emphasis" Algorithm=Translate >
+  <Attribute-Type Name="role" Type=Translate />
+  <Attribute-Condition Name="role" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="itemizedlist" Algorithm=Translate />
+<Rule Type=Block Name="listitem" Algorithm=Translate />
+<Rule Type=Block Name="section" Algorithm=Translate >
+  <Attribute-Type Name="xml:base" Type=Translate />
+  <Attribute-Condition Name="xml:base" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="informaltable" Algorithm=Translate >
+  <Attribute-Type Name="frame" Type=Translate />
+  <Attribute-Condition Name="frame" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="tgroup" Algorithm=Translate >
+  <Attribute-Type Name="align" Type=Translate />
+  <Attribute-Condition Name="align" Condition=Exist />
+  <Attribute-Type Name="cols" Type=Translate />
+  <Attribute-Condition Name="cols" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="colspec" Algorithm=Translate >
+  <Attribute-Type Name="colwidth" Type=Translate />
+  <Attribute-Condition Name="colwidth" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="tbody" Algorithm=Translate />
+<Rule Type=Block Name="row" Algorithm=Translate />
+<Rule Type=Block Name="entry" Algorithm=Translate />
+<Rule Type=Block Name="filename" Algorithm=Skip />
+<Rule Type=Block Name="programlisting" Algorithm=Leave />
+<Rule Type=Block Name="section" Algorithm=Translate >
+  <Attribute-Type Name="lang" Type=Translate />
+  <Attribute-Condition Name="lang" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="figure" Algorithm=Translate />
+<Rule Type=Block Name="mediaobject" Algorithm=Translate />
+<Rule Type=Block Name="imageobject" Algorithm=Translate />
+<Rule Type=Block Name="imagedata" Algorithm=Translate >
+  <Attribute-Type Name="align" Type=Translate />
+  <Attribute-Condition Name="align" Condition=Exist />
+  <Attribute-Type Name="fileref" Type=Translate />
+  <Attribute-Condition Name="fileref" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="note" Algorithm=Translate />
+<Rule Type=Block Name="literal" Algorithm=Translate />
+<Rule Type=Block Name="example" Algorithm=Translate />
+<Rule Type=Block Name="informaltable" Algorithm=Translate />
+<Rule Type=Block Name="xref" Algorithm=Translate >
+  <Attribute-Type Name="linkend" Type=Translate />
+  <Attribute-Condition Name="linkend" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="literallayout" Algorithm=Translate />
+<Rule Type=Block Name="programlisting" Algorithm=Skip >
+  <Attribute-Type Name="linenumbering" Type=Translate />
+  <Attribute-Condition Name="linenumbering" Condition=Exist />
+  <Attribute-Type Name="xml:space" Type=Translate />
+  <Attribute-Condition Name="xml:space" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="section" Algorithm=Translate >
+  <Attribute-Type Name="id" Type=Translate />
+  <Attribute-Condition Name="id" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="variablelist" Algorithm=Translate />
+<Rule Type=Block Name="varlistentry" Algorithm=Translate />
+<Rule Type=Block Name="term" Algorithm=Translate />
+<Rule Type=Block Name="orderedlist" Algorithm=Translate />
+<Rule Type=Block Name="appendix" Algorithm=Translate />
+<Rule Type=Block Name="tgroup" Algorithm=Translate >
+  <Attribute-Type Name="cols" Type=Translate />
+  <Attribute-Condition Name="cols" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="entry" Algorithm=Translate >
+  <Attribute-Type Name="colsep" Type=Translate />
+  <Attribute-Condition Name="colsep" Condition=Exist />
+  <Attribute-Type Name="rowsep" Type=Translate />
+  <Attribute-Condition Name="rowsep" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="command" Algorithm=Translate />
+<Rule Type=Block Name="tgroup" Algorithm=Translate >
+  <Attribute-Type Name="cols" Type=Translate />
+  <Attribute-Condition Name="cols" Condition=Exist />
+  <Attribute-Type Name="colsep" Type=Translate />
+  <Attribute-Condition Name="colsep" Condition=Exist />
+  <Attribute-Type Name="rowsep" Type=Translate />
+  <Attribute-Condition Name="rowsep" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="colspec" Algorithm=Translate >
+  <Attribute-Type Name="colsep" Type=Translate />
+  <Attribute-Condition Name="colsep" Condition=Exist />
+  <Attribute-Type Name="colwidth" Type=Translate />
+  <Attribute-Condition Name="colwidth" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="entry" Algorithm=Translate >
+  <Attribute-Type Name="rowsep" Type=Translate />
+  <Attribute-Condition Name="rowsep" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="row" Algorithm=Translate >
+  <Attribute-Type Name="rowsep" Type=Translate />
+  <Attribute-Condition Name="rowsep" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="entry" Algorithm=Translate >
+  <Attribute-Type Name="colname" Type=Translate />
+  <Attribute-Condition Name="colname" Condition=Exist />
+  <Attribute-Type Name="colsep" Type=Translate />
+  <Attribute-Condition Name="colsep" Condition=Exist />
+  <Attribute-Type Name="rowsep" Type=Translate />
+  <Attribute-Condition Name="rowsep" Condition=Exist />
+  <Attribute-Type Name="valign" Type=Translate />
+  <Attribute-Condition Name="valign" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="programlisting" Algorithm=Translate >
+  <Attribute-Type Name="linenumbering" Type=Translate />
+  <Attribute-Condition Name="linenumbering" Condition=Exist />
+</Rule>
+<Rule Type=Block Name="literallayout" Algorithm=Translate >
+  <Attribute-Type Name="role" Type=Translate />
+  <Attribute-Condition Name="role" Condition=Exist />
+</Rule>
+</Rules>
+</Promt-TransML>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.0//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.0/sdocbook.dtd">
+<section>
+  <title>Einleitung</title>
+
+  <para role="justify">Mit dem Checkservice Commander (RICSC) lassen sich
+  Dateien an den Checkservice schicken und Informationen zu den gesendeten
+  Daten auslesen.</para>
+
+  <section>
+    <title>Aufbau dieser Dokumentation</title>
+
+    <para>Diese Dokumentation enthält:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>In Kapitel 1 einen Überblick und die in dieser Dokumentation
+        verwendeten Konventionen.</para>
+      </listitem>
+
+      <listitem>
+        <para>In Kapitel 2 die Beschreibung der Nutzung für
+        Endanwender.</para>
+      </listitem>
+
+      <listitem>
+        <para>In Kapitel 3 die Beschreibung der API.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+  <section>
+    <title>Konventionen</title>
+
+    <para>In dieser Dokumentation werden folgende Konventionen
+    eingehalten:</para>
+
+    <informaltable frame="none">
+      <tgroup align="left" cols="2">
+        <colspec colwidth="1*" />
+
+        <colspec colwidth="4*" />
+
+        <tbody>
+          <row>
+            <entry><para><emphasis>Kursiv</emphasis></para></entry>
+
+            <entry>Namen von Dateien, wichtige Anmerkungen.</entry>
+          </row>
+
+          <row>
+            <entry><para><emphasis role="bold">fett</emphasis></para></entry>
+
+            <entry>neue Begriffe, Namen von Funktionen oder Methoden.</entry>
+          </row>
+
+          <row>
+            <entry><programlisting>courier</programlisting></entry>
+
+            <entry>Programmtext oder Eingaben im Betriebssystem.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+</section>
