@@ -24,5 +24,5 @@
 
    Binaries are built for .NET Core 3.1. The .NET Core must be installed on the client machine.
 
-   If you prefer to get the standalone version, you can do this by downloading the package from our [Download Portal](https://www.infogrips.ch/download.html) .
-   (Windows, Linux and macOS)
+   If you prefer to get the standalone version, you can do this by visiting the
+   [Download Portal](https://www.infogrips.ch/download.html).
