@@ -1,5 +1,5 @@
 .vscode/
 bin/
 obj/
-binaries/*/*.json
+binaries/*/*deps.json
 binaries/*/*.pdb
