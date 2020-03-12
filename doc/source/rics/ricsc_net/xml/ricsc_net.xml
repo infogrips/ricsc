@@ -26,14 +26,13 @@
               xmlns:xi="http://www.w3.org/2001/XInclude" />
 
   <section>
-    <title>Input Module</title>
+    <title>Nutzung für Endanwender</title>
 
     <section>
       <title>Einleitung</title>
 
-      <para role="Absatz1">In diesem Anhang sind alle Input Module und ihre
-      Prozeduren bzw. Methoden beschrieben, welche zusammen mit dem
-      RUN1Algorithmus benutzt werden können.</para>
+      <para role="Absatz1">In diesem Kapitel ist die Benutzung für den
+      Endanwender beschrieben.</para>
     </section>
 
     <xi:include href="ricsc_net_usage.xml"
@@ -42,14 +41,13 @@
   </section>
 
   <section>
-    <title>Output Module</title>
+    <title>API</title>
 
     <section>
       <title>Einleitung</title>
 
-      <para role="Absatz1">In diesem Anhang sind alle Output Module und ihre
-      Prozeduren bzw. Methoden beschrieben, welche zusammen mit dem RUN1
-      Algorithmus benutzt werden können.</para>
+      <para role="Absatz1">In diesem Kapitel ist die API für den Zugriff zum
+      Checkservice beschrieben.</para>
     </section>
 
     <xi:include href="ricsc_net_api.xml"
